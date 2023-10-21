@@ -78,7 +78,8 @@ section{
     width: 45%;
     margin-bottom: 2%;
     padding: 2%;
-    border: #000000 solid 2px;
+    
+    border:red solid 3px;
     border-radius: 2em;
 
 }
@@ -94,8 +95,18 @@ section{
 }
 
 #BTsubmit{
+    transition: 200ms;
     min-width: 60px;
     margin-left: 80%;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 2em;
+}
+
+#BTsubmit:hover{
+    transition: 200ms;
+    scale: 1.2;
 }
 
 .InputUser{
