@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="CSS/Contato.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo_caixa">
+            <img src="./Assets/logo.png" title="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Cardapio.html">Cardápio</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
+                </ul>
+            </nav>    
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1 id="titulo">Contato📱</h1>
+            <div id="EstruturaForm">
+                <form action="" id="Form">
+                    <label for="Nome">Nome e Sobrenome</label>
+                    <input type="text" id="Nome" class="InputUser" required>
+                    <br>
+                    <label for="E-mail">E-mail</label>
+                    <input type="email" id="E-mail" class="InputUser" required>
+                    <br>
+                    <label for="Telefone">Telefone</label>
+                    <input type="tel" id="Telefone" class="InputUser" required>
+                    <br>
+                    <label for="Menssagem">Menssagem</label>
+                    <textarea name="Menssagem" id="Menssagem" cols="30" rows="10" ></textarea>
+                    <br>
+                    <label for="Contato">Como prefe o contato?
+                    <input type="radio" name="Contato" value="Email"> E-mail
+                    <input type="radio" name="Contato" value="Telefone"> Telefone
+                    <input type="radio" name="Contato" value="Whatsapp"> Whatsapp
+                    </label>
+                    <br>
+                    <label for="Motivo">Qual o motivo do seu contato?
+                        <select>
+                            <option value="">Selecione</option>
+                            <option value="">Duvida</option>
+                            <option value="">Sugestão</option>
+                            <option value="">Elogio</option>
+                            <option value="">Reclamação</option>
+                        </select>    
+                    </label>
+                    <br>
+                    
+                    <button type="submit" id="BTsubmit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="Assets/logo.png" alt="Seu Pizza" class="logo_footer">
+        <p class="copyright">&copy; Todos os direitos reservados para a Seu Pizza</p>
+    </footer>
+
+</body>
+</html>
