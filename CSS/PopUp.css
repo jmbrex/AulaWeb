@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Arial";
+    background-color: rgb(70, 68, 68);
+}
+
+.promocao {
+    display: flex;
+    flex-direction: column;
+    border: #ff0000 solid 2px;
+    align-items: center;
+    max-width: 25%;
+    max-height:25%;
+    width: auto;
+    height: auto;
+    min-width: 300px;
+    
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 2em;
+    background-color: #ff0000;
+    
+}
+.InfoCardapio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-bottom: #ff0000 solid 2px;
+    border-radius: 2em;
+    background-color: #ffffff;
+    
+}
+
+.imgPromocao{
+    max-width:250px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+.info{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    
+ }
